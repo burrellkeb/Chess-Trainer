@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opening Reps</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1 id="homeLink">Opening Reps</h1>
+  <button id="reviewAll" class="primary"></button>
+</header>
+
+<main>
+  <section id="home">
+    <p class="lede">Learn a line with hints, then recall it from memory. Lines you get right come back less and less often. Lines you miss come back within the session and again soon after.</p>
+    <div id="cards"></div>
+    <p class="small">Progress is saved in this browser. <a href="#" id="resetAll">Reset all progress</a></p>
+  </section>
+
+  <section id="session" hidden>
+    <div class="boardWrap">
+      <div id="board"></div>
+      <div class="controls">
+        <button id="hintBtn">Hint</button>
+        <button id="nextBtn" class="primary" hidden>Next line →</button>
+        <button id="quitBtn">End session</button>
+      </div>
+    </div>
+    <aside class="panel">
+      <div id="sessionTitle" class="title"></div>
+      <div id="lineTitle" class="sub"></div>
+      <div id="progress" class="small"></div>
+      <div id="feedback" class="feedback"></div>
+      <ol id="moveList"></ol>
+      <div id="note" class="note" hidden></div>
+    </aside>
+  </section>
+</main>
+
+<script src="lib/chess.js"></script>
+<script src="repertoire.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
