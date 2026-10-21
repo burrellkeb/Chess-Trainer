@@ -1,6 +1,7 @@
 # Opening Reps
 
 A local chess opening trainer. There's nothing to install and no server to run. Unzip it and open `index.html` in any browser.
+Also, open with this link https://burrellkeb.github.io/Chess-Trainer/
 
 ## How it works
 - **Learn**: new lines only. The trainer plays the opponent's moves and highlights yours in blue.
