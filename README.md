@@ -1,8 +1,11 @@
 # Opening Reps
 
-A local chess opening trainer. There's nothing to install and no server to run. Unzip it and open `index.html` in any browser.
+A local chess opening trainer. There's nothing to install and no server to run. Click the link https://burrellkeb.github.io/Chess-Trainer/ to run on laptop or Safari.
 
-## How it works
+##To make it an app
+Open the link.
+
+### How it works
 - **Learn**: new lines only. The trainer plays the opponent's moves and highlights yours in blue.
 - **Practice all**: every line in an opening, shuffled, no hints.
 - **Review**: lines that spaced repetition says are due. The header button reviews across all openings.
